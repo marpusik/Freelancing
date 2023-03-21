@@ -1,10 +1,13 @@
-.menu__item-link{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #252525;
-    opacity: 0.7;
+.menu__item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #252525;
+  opacity: 0.7;
+  &:hover {
+    color: #1E88E5;
+  }
 }
 nav {
   overflow: hidden;
@@ -23,14 +26,64 @@ nav {
 }
 .menu {
   display: flex;
-  // .menu__item
+  justify-content: space-between;
+  align-items: center;
   &__item {
-    margin-left: 25px;
+    margin-left: 35px;
+  }
+  button {
+    margin-left: 60px;
   }
 }
 .burger {
   display: none;
   cursor: pointer;
+}
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 98px;
+  color: #252525;
+}
+.header {
+  margin: 119px 0 172px 0;
+  display: flex;
+  &__wrap button {
+    border-radius: 10px;
+    height: 76px;
+  }
+  .img {
+    margin-top: -100px;
+  }
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #252525;
+  opacity: 0.6;
+  margin: 17px 0 84px 0;
+}
+.search {
+  background: #f5ecec;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 420px;
+  height: 76px;
+}
+input {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #9D9D9D;
+  background: #f5ecec;
+  opacity: .5;
 }
 // Burger menu styles
 @media screen and (max-width: $burgerBreakpoint) {
@@ -119,3 +172,4 @@ nav {
     color: white;
   }
 }
+
