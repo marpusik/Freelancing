@@ -1,4 +1,15 @@
 .card{
   width: 305px;
   height: 243px;
+  text-align: center;
+  padding: 41px 0;
+}
+.cards__wrap{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 176px;
 }

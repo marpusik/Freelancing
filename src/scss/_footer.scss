@@ -1,4 +1,58 @@
-// Footer
-footer {
-    display: block;
+.footer__wrap{
+  display: flex;
+  justify-content: space-between;
+  margin: 142px 0 94px 0;
+  h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #252525;
+    padding: 15px 0 25px 0;
+  }
+  a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #252525;
+  }
+}
+.footer__logo{
+  width: 315px;
+  p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: black;
+    margin: 0;
+  }
+  .social{
+    padding-top: 10px;
+  }
+}
+.footer__for{
+  width: 152px;
+}
+.footer__img{
+  width: 315px;
+}
+.call{
+  display: inline-grid;
+  img{
+    padding-right: 14px;
+    position: relative;
+    top: 5px;
+  }
+}
+footer span{
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #9D9D9D;
+  margin-bottom: 28px;
 }

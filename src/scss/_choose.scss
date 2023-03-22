@@ -1,0 +1,31 @@
+.choose h2{
+  text-align: center;
+  margin-bottom: 75px;
+}
+.choose__wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.choose__card h3{
+  z-index: 2;
+  position: relative;
+  bottom: 20px;
+  bottom: 130px;
+  left: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.choose__card:not(:nth-child(4n)){
+  padding: 0 21px 11px 0;
+}
+.choose button{
+  display: block;
+  width: 242px;
+  height: 76px;
+  margin: 30px auto 166px;
+  border-radius: 10px;
+}
