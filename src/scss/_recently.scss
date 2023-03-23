@@ -1,0 +1,73 @@
+.recently {
+  margin-bottom: 176px;
+  p {
+    margin: 0;
+  }
+  h2 {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 75px;
+  }
+}
+.slide {
+  width: 372px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  text-align: center;
+  img {
+    padding: 20px 0 30px 0;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #252525;
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 5px 0 30px;
+    color: #9D9D9D;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-around;
+    &--price {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+      color: #252525;
+    }
+    &--apply {
+      padding-top: 11px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      text-decoration-line: underline;
+      color: #1E88E5;
+    }
+  }
+}
+.swiper{
+  &__arrows{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    position: relative;
+    bottom: 100px;
+  }
+  &__btn{
+    background: none;
+  }
+}
+.next__btn .swiper-button-disabled{
+  background: url("../img/disabled.svg") no-repeat center;
+  width: 65px;
+}

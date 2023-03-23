@@ -23,12 +23,32 @@ function burgerMenu() {
   })
 }
 burgerMenu()
-
 const swiper = new Swiper('.swiper__recently', {
-  // Navigation arrows
+  slidesPerView: 3,
+  spaceBetween: 60,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.next__btn',
+    prevEl: '.prev__btn',
+  },
+  //   // Responsive breakpoints
+  //   breakpoints: {
+  //   // when window width is >= 320px
+  //   320: {
+  //     slidesPerView: 3,
+  //     spaceBetween: 20
+  //   },
+  //   // when window width is >= 480px
+  //   480: {
+  //     slidesPerView: 3,
+  //     spaceBetween: 30
+  //   },
+  // }
+});
+const swiper = new Swiper('.swiper__logos', {
+  slidesPerView: 3,
+  spaceBetween: 60,
+  pagination: {
+    el: '.swiper-pagination',
   },
   //   // Responsive breakpoints
   //   breakpoints: {
