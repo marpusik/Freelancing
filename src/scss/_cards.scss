@@ -13,3 +13,21 @@
   border-radius: 10px;
   margin-bottom: 176px;
 }
+@media (max-width: $breakpoint768) {
+  .card p{
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .cards__wrap{
+    height: 580px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+  }
+}
+@media (max-width: 709px) {
+  .card{
+    padding: 0px;
+    height: 210px;
+  }
+}

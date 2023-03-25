@@ -16,7 +16,7 @@ nav {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding-top: 15px;
+  padding-top: 66px;
   padding-bottom: 15px;
 }
 .logo {
@@ -172,4 +172,101 @@ input {
     color: white;
   }
 }
+@media (max-width: 1400px) {
+  .header {
+    justify-content: space-between;
+    margin: 85px 0 120px 0;
+    &__wrap {
+      width: 50%;
+      button {
+        margin: 30px 0;
+        height: 15%;
+      }
+    }
+  }
+  .container {
+    padding: 0 50px;
+  }
+  .img {
+    width: 40%;
+    height: 40%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .search {
+    height: 15%;
+    width: 50%;
+  }
+  .menu__item-link {
+    font-size: 16px;
+  }
+}
+@media (max-width: $breakpoint1250) {
+  input {
+    font-size: 17px;
+  }
+  h1 {
+    line-height: 50px;
+  }
+  .logo {
+    width: 17%;
+    img {
+      width: 160px;
+    }
+  }
+  .btn {
+    width: 180px;
+    height: 45px;
+    font-size: 17px;
+  }
+  .search {
+    height: 40px;
+    width: 280px;
+    img {
+      width: 14%;
+    }
+  }
+  .menu__item {
+    margin-left: 25px;
+  }
+  .header {
+    &__wrap {
+      display: grid;
+      button {
+        height: 40px;
+      }
+    }
+  }
+  .img {
+    margin-top: -50px !important;
+    width: 370px;
+    height: 370px;
+  }
+}
+@media (max-width: $breakpoint992) {
+  .menu button {
+    margin: 30px 0 0 25px;
+  }
+}
+@media (max-width: $breakpoint768) {
+  .header {
+    display: block;
+    text-align: -webkit-center;
+    &__wrap {
+      width: 100%;
+      button {
+        margin: 30px auto;
+      }
+    }
+  }
+  .search {
+    margin: 0 auto 60px;
+  }
+}
+
 

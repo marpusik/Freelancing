@@ -55,19 +55,25 @@
     }
   }
 }
-.swiper{
-  &__arrows{
+.swiper {
+  &__arrows {
     display: flex;
     justify-content: flex-end;
     gap: 25px;
     position: relative;
     bottom: 100px;
   }
-  &__btn{
+  &__btn {
     background: none;
+    width: 65px;
+    height: 70px;
+  }
+  &-wrapper {
+    padding: 2px;
   }
 }
-.next__btn .swiper-button-disabled{
+[tabindex="0"] {
   background: url("../img/disabled.svg") no-repeat center;
   width: 65px;
+  height: 70px;
 }

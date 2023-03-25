@@ -3,4 +3,55 @@
   p {
     margin: 0;
   }
+  h2 {
+    margin-bottom: 75px;
+    text-align: center;
+  }
+}
+.slides {
+  &__box {
+    text-align: left;
+    padding: 10px 20px 0;
+  }
+  width: 383px;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 6px rgb(0 0 0 / 20%);
+  box-shadow: 0 1px 6px rgb(0 0 0 / 20%);
+  border-radius: 30px;
+  text-align: center;
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #252525;
+  }
+  &__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #9D9D9D;
+  }
+  &__svg {
+    text-align: right;
+  }
+}
+.svg {
+  position: relative;
+  bottom: 50px;
+}
+.swiper-pagination {
+  position: initial !important;
+  margin: 75px 0 168px 0;
+}
+.swiper-pagination-bullet {
+  width: 47px !important;
+  height: 12px !important;
+  background: #9D9D9D !important;
+  border-radius: 10px !important;
+}
+.swiper-pagination-bullet-active {
+  width: 82px !important;
+  background: #1E88E5 !important;
 }

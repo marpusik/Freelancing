@@ -30,6 +30,9 @@ const swiper = new Swiper('.swiper__recently', {
     nextEl: '.next__btn',
     prevEl: '.prev__btn',
   },
+  // pagination: {
+  //   el: '.swiper-pagination',
+  // },
   //   // Responsive breakpoints
   //   breakpoints: {
   //   // when window width is >= 320px
@@ -44,7 +47,7 @@ const swiper = new Swiper('.swiper__recently', {
   //   },
   // }
 });
-const swiper = new Swiper('.swiper__logos', {
+const swiper2 = new Swiper('.swiper__logos', {
   slidesPerView: 3,
   spaceBetween: 60,
   pagination: {
