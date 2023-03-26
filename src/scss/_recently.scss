@@ -77,3 +77,55 @@
   width: 65px;
   height: 70px;
 }
+@media (max-width: $breakpoint1250) {
+  .recently{
+    h2{
+      margin-bottom: 20px;
+    }
+  }
+  .swiper-slide{
+    margin: 0 20px 0 20px !important;
+  }
+  .slide{
+    max-width: 270px;
+    &__title{
+      font-size: 22px;
+    }
+    &__text{
+      font-size: 16px;
+      line-height: 25px;
+    }
+    &__box--price{
+      font-size: 18px;
+      line-height: 25px;
+      padding-bottom: 10px;
+    }
+    &__box--apply{
+      font-size: 20px;
+      line-height: 25px;
+    }
+    img {
+      width: 60px;
+      padding: 20px 0 10px 0;
+    }
+  }
+}
+@media (max-width: $breakpoint992) {
+  .swiper__btn img{
+    width: 16px;
+  }
+  .swiper-slide {
+    margin: 0 0px 0 45px!important;
+  }
+}
+@media (max-width: $breakpoint768) {
+  .slide {
+    max-width: 190px;
+  }
+  .swiper-slide {
+    margin: 0 0 0 25px!important;
+  }
+  .recently {
+    margin-bottom: 120px;
+  }
+}

@@ -24,28 +24,18 @@ function burgerMenu() {
 }
 burgerMenu()
 const swiper = new Swiper('.swiper__recently', {
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 60,
+  breakpoints: {
+    992: {
+      slidesPerView: 3,
+      // spaceBetween: 20
+    }
+  },
   navigation: {
     nextEl: '.next__btn',
     prevEl: '.prev__btn',
   },
-  // pagination: {
-  //   el: '.swiper-pagination',
-  // },
-  //   // Responsive breakpoints
-  //   breakpoints: {
-  //   // when window width is >= 320px
-  //   320: {
-  //     slidesPerView: 3,
-  //     spaceBetween: 20
-  //   },
-  //   // when window width is >= 480px
-  //   480: {
-  //     slidesPerView: 3,
-  //     spaceBetween: 30
-  //   },
-  // }
 });
 const swiper2 = new Swiper('.swiper__logos', {
   slidesPerView: 3,

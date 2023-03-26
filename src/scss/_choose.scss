@@ -29,3 +29,23 @@
   margin: 30px auto 166px;
   border-radius: 10px;
 }
+@media (max-width: $breakpoint992) {
+  .choose button{
+    width: 170px;
+    height: 55px
+  }
+}
+@media (max-width: $breakpoint768) {
+  .choose__card{
+    h3{
+      font-size: 14px;
+      line-height: 25px;
+    }
+    img{
+      width: 190px;
+    }
+  }
+  .choose button{
+    margin: 30px auto 110px;
+  }
+}
