@@ -55,3 +55,38 @@
   width: 82px !important;
   background: #1E88E5 !important;
 }
+@media (max-width: $breakpoint1250) {
+  .slides {
+    width: 250px;
+    &__img img {
+      width: 250px;
+    }
+    &__title{
+      font-size: 24px;
+    }
+    &__subtitle{
+      font-size: 19px;
+    }
+  }
+}
+@media (max-width: $breakpoint992) {
+  .slides {
+    width: 200px;
+    &__img img {
+      width: 200px;
+    }
+    &__title{
+      font-size: 21px;
+    }
+    &__subtitle{
+      font-size: 16px;
+    }
+    &__svg .svg{
+      width: 20px;
+    }
+  }
+  .swiper-pagination {
+    position: initial!important;
+    margin: 75px 0 90px 0;
+  }
+}

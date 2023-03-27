@@ -38,8 +38,14 @@ const swiper = new Swiper('.swiper__recently', {
   },
 });
 const swiper2 = new Swiper('.swiper__logos', {
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 60,
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+      // spaceBetween: 20
+    }
+  },
   pagination: {
     el: '.swiper-pagination',
   },

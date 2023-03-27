@@ -1,11 +1,11 @@
-.newsletter{
+.newsletter {
   background: #F2FAFA;
   text-align: center;
-  h2{
+  h2 {
     text-align: center;
     padding-top: 86px;
   }
-  input{
+  input {
     width: 662px;
     height: 76px;
     background: #FFFFFF;
@@ -13,10 +13,19 @@
     border-radius: 10px;
     text-align: center;
   }
-  button{
+  button {
     width: 300px;
     height: 76px;
     border-radius: 10px;
     margin: 42px 0 77px 0;
+  }
+}
+@media (max-width: $breakpoint768) {
+  .newsletter input {
+    width: 460px;
+  }
+  .newsletter button {
+    width: 190px;
+    height: 50px;
   }
 }
