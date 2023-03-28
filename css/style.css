@@ -1689,7 +1689,7 @@ button.swiper-pagination-bullet {
   }
 
   .footer__wrap {
-    gap: 10px;
+    gap: 75px;
   }
 
   footer span {
@@ -1918,5 +1918,20 @@ button.swiper-pagination-bullet {
 @media (max-width: 480px) {
   .container {
     max-width: none;
+  }
+
+  .find .img {
+    position: absolute;
+    -webkit-filter: opacity(0.3);
+            filter: opacity(0.3);
+  }
+
+  .find__box p {
+    color: black;
+  }
+
+  .choose__card h3 {
+    bottom: 90px;
+    left: 25px;
   }
 }
